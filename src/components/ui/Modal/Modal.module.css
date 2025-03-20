@@ -1,0 +1,79 @@
+.containerModal{
+    height: 300px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(250, 235, 215, 0.8);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px black;
+    backdrop-filter: blur(100px);
+    z-index: 10; /* Asegura que esté sobre el fondo */
+
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Oscurece el fondo */
+    backdrop-filter: blur(10px);
+    z-index: 9; /* Asegura que esté detrás del modal */
+}
+
+
+.modalTitle{
+    text-align: center;
+    padding: 20px;
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerForm input, textarea{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 1px 1px 3px black ;
+  
+}
+
+.containerBtnForm{
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    border: 2px black;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.containerBtnForm button{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: bisque;
+    box-shadow: 1px 1px 3px black;
+}

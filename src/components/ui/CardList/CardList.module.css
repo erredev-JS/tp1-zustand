@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: ghostwhite;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.cardTxt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 75%;
+    justify-content: space-between;
+    gap: 4px;
+    
+}
+
+
+.cardActions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 200px;
+    align-items: center;
+ 
+}
+
+.cardActions button{
+    width: 60px;
+    height: 20px;
+    border-radius: 12px;
+    border: none;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.cardActions button:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
